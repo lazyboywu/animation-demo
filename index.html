@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript animation lucture</title>
+        <meta name="description" content="">
+
+        <link rel="stylesheet" href="./vendor/bootstrap-3.3.5/css/bootstrap.css">
+        <link rel="stylesheet" href="./vendor/bootstrap-3.3.5/css/bootstrap-theme.css">
+
+        <script src="./vendor/commonjs-require.js"></script>
+        <script src="./vendor/jquery-2.1.4/jquery.js"></script>
+        <script src="./vendor/bootstrap-3.3.5/js/bootstrap.js"></script>
+
+        <script src="./js/core/core.js"></script>
+        <script src="./js/core/renderer.js"></script>
+        <script src="./js/core/animator.js"></script>
+
+        <script src="./js/renderer/point.js"></script>
+
+        <script src="./js/grid/base.js"></script>
+        <script src="./js/grid/blind.js"></script>
+        <script src="./js/grid/rand.js"></script>
+
+        <script src="./js/element/base.js"></script>
+        <script src="./js/element/group.js"></script>
+        <script src="./js/element/grid.js"></script>
+        <script src="./js/element/shape.js"></script>
+        <script src="./js/element/rect.js"></script>
+        <script src="./js/element/circle.js"></script>
+
+        <script src="./js/animation/base.js"></script>
+        <script src="./js/animation/finiteTime.js"></script>
+        <script src="./js/animation/intervalTime.js"></script>
+        <script src="./js/animation/moveTo.js"></script>
+        <script src="./js/animation/rotateTo.js"></script>
+        <script src="./js/animation/scaleTo.js"></script>
+        <script src="./js/animation/fadeTo.js"></script>
+        <script src="./js/animation/progressTo.js"></script>
+
+        <script src="./js/animation/gridBase.js"></script>
+        <script src="./js/animation/gridBlind.js"></script>
+        <script src="./js/animation/gridRand.js"></script>
+
+        <script src="./js/demo.js"></script>
+        <script src="./js/main.js"></script>
+    </head>
+    <body class="no-cache">
+
+        <div class="row">
+            <div class="col-md-3 bg-info text-center">
+                <h3 id="button-title">button list</h3>
+                <div id="button-container"></div>
+            </div>
+            <div class="col-md-7">
+                <h3 id="demo-title">demo title</h3>
+                <div id="renderer-container" style="margin: 0 auto;background-color:#999966;width:640px;height:480px;">
+                    <canvas id="renderer-canvas" width="640" height="480"></canvas>
+                </div>
+                <p>&nbsp;</p>
+                <div id="code-container" class="highlight">
+                    <pre>aaa</pre>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            main();
+        </script>
+    </body>
+</html>
+
